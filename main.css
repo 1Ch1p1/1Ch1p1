@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body{
+    font-family: 'Lora', serif;
+    background: url(https://phonoteka.org/uploads/posts/2022-02/1645191363_43-phonoteka-org-p-chernii-besshovnii-fon-48.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.conteiner
+{
+    width: 800px;
+    min-height: 500px;
+    border: 10px solid white;
+    margin: 0 auto;
+    background: white;
+}
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.title-block{
+    position: relative;
+    width: 80%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: url(https://wj3.ru/wp-content/uploads/2019/07/pravilnoe-podklyuchenie-skriptov-i-stilej-v-temu-wordpress.jpg) no-repeat center center / cover;
+    color: white;
+    margin-right: 10px;
+}
+.title-block::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+}
+.title
+{
+    position: relative;
+    z-index: 1;
+}
+
+.userpic{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background: url(d02a1ed80c7a64d66896d832c5fe5f73.jpg) no-repeat center center / cover;
+}
+.nav ul{
+    display: flex;
+    background: rgb(233, 232, 232);
+    margin: 10px 0;
+}
+
+.nav li a{
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    border-right: 1px solid rgb(226, 226, 226);
+    transition: background .3s ease;
+}
+
+.nav li a:hover{
+    background: rgb(201, 198, 198);
+}
+
+.content-wrapper
+{
+    display: flex;
+}
+.content{
+    width: 70%;
+    padding: 20px;
+}
+
+.content p{
+    line-height: 20px;
+}
+
+.sidebar{
+    width: 30%;
+    padding: 20px;
+}
+
+.skills li {
+    padding: 10px 0;
+    transition: transform .5s ease;
+}
+
+.skills li:hover {
+    transform: translateX(10px);
+}
